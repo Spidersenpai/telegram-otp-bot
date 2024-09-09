@@ -1,0 +1,16 @@
+{
+  "$schema": "./config.schema.json",
+  "bot_token": "token_of_the_bot",
+  "admin": your_user_id,
+  "totp": [
+    {
+      "name": "steam",
+      "secret": "totp_secret",
+      "authorized_ids": [user_ids_that_can_generate_otp_without_approval]
+    },
+  ],
+  "proxy": {
+    "host": "localhost",
+    "port": 1080
+  }
+}
